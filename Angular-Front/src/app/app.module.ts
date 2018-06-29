@@ -8,7 +8,7 @@ import { FlashMessagesModule } from 'angular2-flash-messages';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './components/login/login.component';
-//import { ProfileComponent } from './components/profile/profile.component';
+import { ProfileComponent } from './components/profile/profile.component';
 import { ManageUsersComponent } from './components/manage-users/manage-users.component';
 import { ManageLeavesComponent } from './components/manage-leaves/manage-leaves.component';
 import { HomeComponent } from './components/home/home.component';
@@ -43,7 +43,7 @@ const applicationRoutes:Routes = [
 
     {path:'login',component:LoginComponent},
     {path:'manageUsers',component:ManageUsersComponent},
-   // {path:'profile',component:ProfileComponent},
+    {path:'profile',component:ProfileComponent},
     {path:'home',component:HomeComponent},
     {path:'about',component:AboutComponent},
     {path:'requestLeaves',component:RequestLeavesComponent},
@@ -63,7 +63,7 @@ const applicationRoutes:Routes = [
     AppComponent,
     NavbarComponent,
     LoginComponent,
-   // ProfileComponent,
+    ProfileComponent,
     ManageUsersComponent,
     ManageLeavesComponent,
     HomeComponent,
